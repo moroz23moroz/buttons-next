@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f9fc;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.comments-container {
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+.comment {
+  background-color: #f1f1f1;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 10px;
+}
+.comment.lost {
+  display: none;
+}
+.comment.active {
+  display: block;
+}
+.comment:nth-child(odd) {
+  background-color: #e9ecef;
+}
+.comment:nth-child(even) {
+  background-color: #f8f9fa;
+}
+.lost {
+  display: none;
+}
+.active {
+  display: block;
+}
