@@ -39,9 +39,3 @@ body {
 .comment:nth-child(even) {
   background-color: #f8f9fa;
 }
-.lost {
-  display: none;
-}
-.active {
-  display: block;
-}
